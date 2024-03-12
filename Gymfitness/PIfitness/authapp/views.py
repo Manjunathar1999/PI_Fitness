@@ -167,7 +167,7 @@ def workoutlog(request):
 
         # Sending email to the registered user
         subject = 'Workout Log Created'
-        from_email = 'kumudal19@gmail.com'  # Update with your email address
+        from_email = 'manjunathar609@gmail.com'  # Update with your email address
         recipient_list = [request.user.email]
         send_mail(subject, message, from_email, recipient_list, fail_silently=False)
 
